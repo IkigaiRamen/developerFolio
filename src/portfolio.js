@@ -20,132 +20,126 @@ const illustration = {
 };
 
 const greeting = {
-  username: "Saad Pasta",
-  title: "Hi all, I'm Saad",
+  username: "Ram Khammessi",
+  title: "Hi all, I'm Ram",
   subTitle: emoji(
-    "A passionate Full Stack Software Developer 🚀 having an experience of building Web and Mobile applications with JavaScript / Reactjs / Nodejs / React Native and some other cool libraries and frameworks."
+    "A passionate Full Stack Software Engineer 🚀 with experience building enterprise-grade web apps using Angular, React, Spring Boot, and modern backend frameworks."
   ),
-  resumeLink:
-    "https://drive.google.com/file/d/1ofFdKF_mqscH8WvXkSObnVvC9kK7Ldlu/view?usp=sharing", // Set to empty to hide the button
-  displayGreeting: true // Set false to hide this section, defaults to true
+  resumeLink: "https://github.com/IkigaiRamen", // Optional resume link
+  displayGreeting: true
 };
 
 // Social Media Links
 
 const socialMediaLinks = {
-  github: "https://github.com/saadpasta",
-  linkedin: "https://www.linkedin.com/in/saadpasta/",
-  gmail: "saadpasta70@gmail.com",
-  gitlab: "https://gitlab.com/saadpasta",
-  facebook: "https://www.facebook.com/saad.pasta7",
-  medium: "https://medium.com/@saadpasta",
-  stackoverflow: "https://stackoverflow.com/users/10422806/saad-pasta",
-  // Instagram, Twitter and Kaggle are also supported in the links!
-  // To customize icons and social links, tweak src/components/SocialMedia
+  github: "https://github.com/IkigaiRamen",
+  linkedin: "https://www.linkedin.com/in/RamKhammessi/",
+  gmail: "Ram.khammessi@esprit.tn",
   display: true // Set true to display this section, defaults to false
 };
 
 // Skills Section
 
 const skillsSection = {
-  title: "What I do",
-  subTitle: "CRAZY FULL STACK DEVELOPER WHO WANTS TO EXPLORE EVERY TECH STACK",
+  
+  title: "What I Do",
+  subTitle:
+    "FULL-STACK SOFTWARE ENGINEER SPECIALIZED IN BUILDING SCALABLE SYSTEMS, MODERN WEB APPLICATIONS, AND CLOUD-NATIVE SOLUTIONS",
   skills: [
-    emoji(
-      "⚡ Develop highly interactive Front end / User Interfaces for your web and mobile applications"
-    ),
-    emoji("⚡ Progressive Web Applications ( PWA ) in normal and SPA Stacks"),
-    emoji(
-      "⚡ Integration of third party services such as Firebase/ AWS / Digital Ocean"
-    )
+    emoji("⚡ Develop robust and responsive front-end interfaces using React, Angular, and Next.js"),
+    emoji("⚡ Design and implement scalable backends with Node.js, Django, Spring Boot, and Laravel"),
+    emoji("⚡ Architect microservice-based systems with CI/CD pipelines using Docker, Jenkins, and GitLab CI"),
+    emoji("⚡ Integrate cloud services like AWS (EC2, S3), Firebase, and deploy secure APIs with OAuth2 and JWT"),
+    emoji("⚡ Optimize performance and developer workflow through automation, monitoring (Grafana), and Agile practices")
   ],
 
   /* Make Sure to include correct Font Awesome Classname to view your icon
 https://fontawesome.com/icons?d=gallery */
 
-  softwareSkills: [
-    {
-      skillName: "html-5",
-      fontAwesomeClassname: "fab fa-html5"
-    },
-    {
-      skillName: "css3",
-      fontAwesomeClassname: "fab fa-css3-alt"
-    },
-    {
-      skillName: "sass",
-      fontAwesomeClassname: "fab fa-sass"
-    },
-    {
-      skillName: "JavaScript",
-      fontAwesomeClassname: "fab fa-js"
-    },
-    {
-      skillName: "reactjs",
-      fontAwesomeClassname: "fab fa-react"
-    },
-    {
-      skillName: "nodejs",
-      fontAwesomeClassname: "fab fa-node"
-    },
-    {
-      skillName: "swift",
-      fontAwesomeClassname: "fab fa-swift"
-    },
-    {
-      skillName: "npm",
-      fontAwesomeClassname: "fab fa-npm"
-    },
-    {
-      skillName: "sql-database",
-      fontAwesomeClassname: "fas fa-database"
-    },
-    {
-      skillName: "aws",
-      fontAwesomeClassname: "fab fa-aws"
-    },
-    {
-      skillName: "firebase",
-      fontAwesomeClassname: "fas fa-fire"
-    },
-    {
-      skillName: "python",
-      fontAwesomeClassname: "fab fa-python"
-    },
-    {
-      skillName: "docker",
-      fontAwesomeClassname: "fab fa-docker"
-    }
-  ],
+softwareSkills: [
+  // Programming Languages
+  { skillName: "TypeScript", fontAwesomeClassname: "devicon-typescript-plain" },
+  { skillName: "JavaScript", fontAwesomeClassname: "devicon-javascript-plain" },
+  { skillName: "Java", fontAwesomeClassname: "devicon-java-plain" },
+  { skillName: "Python", fontAwesomeClassname: "devicon-python-plain" },
+  { skillName: "PHP", fontAwesomeClassname: "devicon-php-plain" },
+  { skillName: "C#", fontAwesomeClassname: "devicon-csharp-plain" },
+  { skillName: "Go", fontAwesomeClassname: "devicon-go-plain" },
+  { skillName: "C", fontAwesomeClassname: "devicon-c-plain" },
+  { skillName: "C++", fontAwesomeClassname: "devicon-cplusplus-plain" },
+  { skillName: "SQL", fontAwesomeClassname: "devicon-mysql-plain" },
+
+  // Frontend & Web
+  { skillName: "Angular", fontAwesomeClassname: "devicon-angularjs-plain" },
+  { skillName: "React", fontAwesomeClassname: "devicon-react-original" },
+  { skillName: "Next.js", fontAwesomeClassname: "devicon-nextjs-line-wordmark" },
+  // Backend & Frameworks
+  { skillName: "Node.js", fontAwesomeClassname: "devicon-nodejs-plain" },
+  { skillName: "Express.js", fontAwesomeClassname: "devicon-express-original" },
+  { skillName: "Django", fontAwesomeClassname: "devicon-django-plain" },
+  { skillName: "Laravel", fontAwesomeClassname: "devicon-laravel-plain" },
+  { skillName: "Symfony", fontAwesomeClassname: "devicon-symfony-original" },
+
+  // DevOps & Cloud
+  { skillName: "Docker", fontAwesomeClassname: "devicon-docker-plain" },
+  { skillName: "Kubernetes", fontAwesomeClassname: "devicon-kubernetes-plain" },
+  { skillName: "Jenkins", fontAwesomeClassname: "devicon-jenkins-plain" },
+  { skillName: "AWS", fontAwesomeClassname: "devicon-amazonwebservices-line-wordmark" },
+  { skillName: "Nginx", fontAwesomeClassname: "devicon-nginx-original" },
+
+  // Databases
+  { skillName: "MySQL", fontAwesomeClassname: "devicon-mysql-plain" },
+  { skillName: "PostgreSQL", fontAwesomeClassname: "devicon-postgresql-plain" },
+  { skillName: "MongoDB", fontAwesomeClassname: "devicon-mongodb-plain" },
+
+  // Version Control & Collaboration
+  { skillName: "Git", fontAwesomeClassname: "devicon-git-plain" },
+  { skillName: "GitHub", fontAwesomeClassname: "devicon-github-original" },
+  { skillName: "GitLab", fontAwesomeClassname: "devicon-gitlab-plain" },
+  { skillName: "Bitbucket", fontAwesomeClassname: "devicon-bitbucket-original" },
+  { skillName: "Jira", fontAwesomeClassname: "devicon-jira-plain" },
+
+  // Tools & Utilities
+  { skillName: "Postman", fontAwesomeClassname: "devicon-postman-plain" },
+  { skillName: "Linux", fontAwesomeClassname: "devicon-linux-plain" }
+]
+
+,
   display: true // Set false to hide this section, defaults to true
 };
 
 // Education Section
 
 const educationInfo = {
-  display: true, // Set false to hide this section, defaults to true
+  display: true,
   schools: [
     {
-      schoolName: "Harvard University",
-      logo: require("./assets/images/harvardLogo.png"),
-      subHeader: "Master of Science in Computer Science",
-      duration: "September 2017 - April 2019",
-      desc: "Participated in the research of XXX and published 3 papers.",
+      schoolName: "ESPRIT – Private Higher School of Engineering and Technology",
+      logo: require("./assets/images/esprit.png"),
+      subHeader: "Engineering Degree in Computer Science",
+      duration: "September 2021 – July 2024",
+      desc: "Completed a 3-year engineering program focused on full-stack development, microservices, and cloud technologies.",
       descBullets: [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
-      ]
+        "Worked on complex software engineering projects using React, Spring Boot, and Docker",
+        "Led agile team sprints and implemented CI/CD pipelines in DevOps environments"
+      ],
+      website_link: "https://www.esprit.tn/"
     },
     {
-      schoolName: "Stanford University",
-      logo: require("./assets/images/stanfordLogo.png"),
-      subHeader: "Bachelor of Science in Computer Science",
-      duration: "September 2013 - April 2017",
-      desc: "Ranked top 10% in the program. Took courses about Software Engineering, Web Security, Operating Systems, ...",
-      descBullets: ["Lorem ipsum dolor sit amet, consectetur adipiscing elit"]
+      schoolName: "ISET Charguia – Higher Institute of Technological Studies of Charguia",
+      logo: require("./assets/images/isetch.jpg"),
+      subHeader: "Undergraduate Degree in Computer Science",
+      duration: "September 2016 – April 2019",
+      desc: "Gained a strong foundation in algorithms, web development, and system programming.",
+      descBullets: [
+        "Graduated with honors in the top 10% of the class",
+        "Studied core topics such as software engineering, operating systems, and web security"
+      ],
+      website_link: "https://isetch.rnu.tn/"
     }
   ]
 };
+
 
 // Your top 3 proficient stacks/tech experience
 
@@ -154,15 +148,15 @@ const techStack = {
   experience: [
     {
       Stack: "Frontend/Design", //Insert stack or technology you have experience in
-      progressPercentage: "90%" //Insert relative proficiency in percentage
+      progressPercentage: "97%" //Insert relative proficiency in percentage
     },
     {
       Stack: "Backend",
-      progressPercentage: "70%"
+      progressPercentage: "88%"
     },
     {
       Stack: "Programming",
-      progressPercentage: "60%"
+      progressPercentage: "82%"
     }
   ],
   displayCodersrank: false // Set true to display codersrank badges section need to changes your username in src/containers/skillProgress/skillProgress.js:17:62, defaults to false
@@ -171,42 +165,60 @@ const techStack = {
 // Work experience section
 
 const workExperiences = {
-  display: true, //Set it to true to show workExperiences Section
+  display: true, // Set to true to show workExperiences Section
   experience: [
     {
-      role: "Software Engineer",
-      company: "Facebook",
-      companylogo: require("./assets/images/facebookLogo.png"),
-      date: "June 2018 – Present",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      role: "Fullstack Developer Intern",
+      company: "Sharing Technologies",
+      companylogo: require("./assets/images/sharing.jpg"), // You can add your company logo here
+      date: "April 2024 – October 2024",
+      location: "Tunis, Tunisia",
+      desc: "Built and enhanced a scalable Angular/Node.js platform INT-Elegance, improving delivery and user experience through modular design and AI features.",
       descBullets: [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+        "Built INT-Elegance, a scalable Angular/Node.js platform, cutting delivery time by 20% via modular design and efficient RESTful APIs.",
+        "Designed a responsive task management module with advanced state handling (NgRx), boosting project completion rates by 30%.",
+        "Integrated an AI-enhanced semantic search feature into internal tools, improving knowledge retrieval and user experience.",
+        "Built and maintained CI/CD pipelines using Docker, GitLab CI, Grafana Dashboards, and AWS, improving deployment frequency and system reliability.",
+        "Operated in an Agile Scrum environment, collaborating with UI/UX, DevOps, and QA teams to ensure sprint success and product alignment."
       ]
     },
     {
-      role: "Front-End Developer",
-      company: "Quora",
-      companylogo: require("./assets/images/quoraLogo.png"),
-      date: "May 2017 – May 2018",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+      role: "Fullstack Developer Intern",
+      company: "TunisAir",
+      companylogo: require("./assets/images/tunisair.png"), // Add Tunisair logo file
+      date: "March 2023 – September 2023",
+      location: "Tunis, Tunisia",
+      desc: "Developed a custom flight management system, enhancing scalability, performance, and security for internal operations.",
+      descBullets: [
+        "Built a custom flight management system using Angular, Express.js, and MySQL, reducing manual workflows by 30+ hours per month.",
+        "Improved system scalability and performance by implementing modular architecture, optimizing APIs, and tuning front-end load speeds by 40%.",
+        "Strengthened platform security using OAuth2, JWT, and CSRF protection.",
+        "Contributed actively to Agile sprints through daily stand-ups and sprint planning sessions."
+      ]
     },
     {
-      role: "Software Engineer Intern",
-      company: "Airbnb",
-      companylogo: require("./assets/images/airbnbLogo.png"),
-      date: "Jan 2015 – Sep 2015",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+      role: "Web Development Intern",
+      company: "Bouquiniste.tn",
+      companylogo: require("./assets/images/book.png"), // Add logo or remove if unavailable
+      date: "August 2023 – September 2023",
+      location: "Tunis, Tunisia",
+      desc: "Developed an innovative online library system focused on improving user experience by identifying and resolving usability issues.",
+      descBullets: [
+        "Pioneered an online library system enhancing user experience and usability.",
+        "Conducted user research revealing 3 major usability issues leading to targeted improvements.",
+        "Increased user satisfaction ratings among patrons through focused enhancements."
+      ]
     }
   ]
 };
+
 
 /* Your Open Source Section to View Your Github Pinned Projects
 To know how to get github key look at readme.md */
 
 const openSource = {
   showGithubProfile: "true", // Set true or false to show Contact profile using Github, defaults to true
-  display: true // Set false to hide this section, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
 // Some big projects you have worked on
@@ -216,31 +228,82 @@ const bigProjects = {
   subtitle: "SOME STARTUPS AND COMPANIES THAT I HELPED TO CREATE THEIR TECH",
   projects: [
     {
-      image: require("./assets/images/saayaHealthLogo.webp"),
-      projectName: "Saayahealth",
-      projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      image: require("./assets/images/logoint.png"),
+      projectName: "INT-Elegance",
+      projectDesc: "A modular Angular and Node.js platform with AI-enhanced search, built to optimize project management workflows.",
+      techStack: "Angular, Node.js, RESTful APIs, NgRx, Docker, AWS",
       footerLink: [
         {
-          name: "Visit Website",
-          url: "http://saayahealth.com/"
+          name: "View on GitHub",
+          url: "https://github.com/IkigaiRamen/Int-elegance"
         }
-        //  you can add extra buttons here.
       ]
     },
     {
-      image: require("./assets/images/nextuLogo.webp"),
-      projectName: "Nextu",
-      projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      image: require("./assets/images/tunisair.png"),
+      projectName: "Tunisair Meetings",
+      projectDesc: "A meeting management system for Tunisair’s board of directors to organize meetings, track decisions, and manage documents.",
+      techStack: "Angular, Spring Boot, MySQL, PrimeNG",
       footerLink: [
         {
-          name: "Visit Website",
-          url: "http://nextu.se/"
+          name: "View on GitHub",
+          url: "https://github.com/IkigaiRamen/Tunisair-meetings"
         }
       ]
-    }
+    },
+    {
+      image: require("./assets/images/inventory.png"),
+      projectName: "Inventory Management App",
+      projectDesc: "A comprehensive web app for managing product inventories, featuring CRUD operations and reporting tools.",
+      techStack: "Angular, Spring Boot, MySQL, REST APIs",
+      footerLink: [
+        {
+          name: "View on GitHub",
+          url: "https://github.com/IkigaiRamen/Inventory-management-App"
+        }
+      ]
+    },
+   
+    {
+      image: require("./assets/images/barter.jpg"),
+      projectName: "Barter App",
+      projectDesc: "A peer-to-peer trading platform enabling users to exchange goods without currency, emphasizing user trust and matching.",
+      techStack: "React Native, Firebase, Node.js",
+      footerLink: [
+        {
+          name: "View on GitHub",
+          url: "https://github.com/IkigaiRamen/Barter-app"
+        }
+      ]
+    },
+    {
+      image: require("./assets/images/uni.jpg"),
+      projectName: "University Management System",
+      projectDesc: "A system to streamline university operations, including course management, student registration, and grading.",
+      techStack: "Java, JavaFX, MySQL",
+      footerLink: [
+        {
+          name: "View on GitHub",
+          url: "https://github.com/IkigaiRamen/University-management-system"
+        }
+      ]
+    },
+    {
+      image: require("./assets/images/jobyard.jpg"),
+      projectName: "Job Portal Web Application",
+      projectDesc: "A job listing platform that connects job seekers and employers with features like profile management and job applications.",
+      techStack: "Symfony, Twig, MySQL, PHP",
+      footerLink: [
+        {
+          name: "View on GitHub",
+          url: "https://github.com/IkigaiRamen/Job-portal-web-application"
+        }
+      ]
+    },
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: true
 };
+
 
 // Achievement Section
 // Include certificates, talks etc
@@ -300,7 +363,7 @@ const achievementSection = {
       ]
     }
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
 // Blogs Section
@@ -324,7 +387,7 @@ const blogSection = {
         "React is a JavaScript library for building User Interface. It is maintained by Facebook and a community of individual developers and companies."
     }
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
 // Talks Sections
@@ -343,7 +406,7 @@ const talkSection = {
       event_url: "https://www.facebook.com/events/2339906106275053/"
     }
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
 // Podcast Section
@@ -356,7 +419,7 @@ const podcastSection = {
   podcast: [
     "https://anchor.fm/codevcast/embed/episodes/DevStory---Saad-Pasta-from-Karachi--Pakistan-e9givv/a-a15itvo"
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
 // Resume Section
@@ -370,20 +433,19 @@ const resumeSection = {
 
 const contactInfo = {
   title: emoji("Contact Me ☎️"),
-  subtitle:
-    "Discuss a project or just want to say hi? My Inbox is open for all.",
-  number: "+92-0000000000",
-  email_address: "saadpasta70@gmail.com"
+  subtitle: "Feel free to reach out for collaboration or freelance work.",
+  number: "+216-50598694",
+  email_address: "Ram.Khammessi@esprit.tn"
 };
 
 // Twitter Section
 
 const twitterDetails = {
   userName: "twitter", //Replace "twitter" with your twitter username without @
-  display: true // Set true to display this section, defaults to false
+  display: false // Set true to display this section, defaults to false
 };
 
-const isHireable = false; // Set false if you are not looking for a job. Also isHireable will be display as Open for opportunities: Yes/No in the GitHub footer
+const isHireable = true; // Set false if you are not looking for a job. Also isHireable will be display as Open for opportunities: Yes/No in the GitHub footer
 
 export {
   illustration,
