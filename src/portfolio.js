@@ -25,7 +25,7 @@ const greeting = {
   subTitle: emoji(
     "A passionate Full Stack Software Engineer 🚀 with experience building enterprise-grade web apps using Angular, React, Spring Boot, and modern backend frameworks."
   ),
-  resumeLink: "https://github.com/IkigaiRamen", // Optional resume link
+  resumeLink: "https://drive.google.com/file/d/1EZqGz5Bh58nnYPZ57mhpmy_pPubRa9dD/view?usp=sharing", // Optional resume link
   displayGreeting: true
 };
 
